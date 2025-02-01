@@ -10,15 +10,13 @@ var itteratedList = myList.forEach { list ->
     println(list + 1)
 }
 
-fun nothingReturner():Unit{ // returns nothing
+fun nothingReturner(name: String, vararg stringol: String):Unit{ // returns nothing
 }
 
 fun main() {
-    itteratedList
-    val person = Person(_firstName = "gela", _LastName = "khasia")
-    person.gelasGamosaxva()
-    val multitudePersons = MultitudeOfPersons(personClass = person)
-    multitudePersons.personShow()
+    val myArr = arrayOf("sadas","dasdasd","dasdsad")
+    nothingReturner("asdas",*myArr)
+    println(myName.length)
 }
 
 
